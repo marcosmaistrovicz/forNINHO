@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forninho</title>
+
+  <!-- Fonte usada apenas para deixar o visual parecido com a referência. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="pagina">
+
+    <!--
+      IMAGENS: ficam todas na pasta "imagens".
+      Para trocar qualquer foto, basta substituir o arquivo mantendo o mesmo nome.
+    -->
+    <section class="topo">
+      <div class="linhas-topo" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
+
+      <div class="apresentacao">
+        <div class="marca">
+          <div class="logo-circulo">
+            <img src="imagens/logo-pintinho.png" alt="Pintinho confeiteiro" class="logo-pintinho">
+          </div>
+
+          <h1 class="nome-logo">
+            <span class="for">for</span><span class="ninho">ninho</span>
+          </h1>
+
+          <p class="slogan">Do nosso ninho, quentinho para você.</p>
+        </div>
+
+        <img src="imagens/bolo-principal.png" alt="Bolo de chocolate" class="bolo-principal">
+      </div>
+
+      <div class="galeria">
+        <img src="imagens/bolo-fatia.webp" alt="Fatia de bolo de chocolate">
+        <img src="imagens/doces-vitrine.jpg" alt="Doces e pães em uma vitrine">
+        <img src="imagens/salgado.jpg" alt="Salgado assado recheado">
+      </div>
+    </section>
+
+    <section class="secao-receitas">
+      <div class="titulo-area">
+        <span class="linha-pontilhada"></span>
+        <h2>
+          <span class="cor-1">Rece</span><span class="cor-2">itas</span>
+        </h2>
+        <span class="linha-pontilhada"></span>
+      </div>
+
+      <div class="conteudo-receitas">
+        <section class="ingredientes">
+          <h3>
+            <span class="cor-1">Ingredientes</span><br>
+            <span class="cor-2">que você possui:</span>
+          </h3>
+
+          <div id="lista-ingredientes" class="lista-ingredientes"></div>
+        </section>
+
+        <section class="resultado">
+          <h3>
+            <span class="cor-1">Receitas</span>
+            <span class="cor-2">possíveis:</span>
+          </h3>
+
+          <div id="lista-receitas" class="caixa-receitas">
+            <p class="mensagem">Selecione os ingredientes para ver as receitas possíveis.</p>
+          </div>
+
+        </section>
+      </div>
+    </section>
+
+    <footer class="rodape">
+      <p>Best Cakes © 2013 Privacy policy</p>
+      <div class="endereco">
+        <span class="casa">◆</span>
+        <span>Rua Capitão Antônio<br>Joaquim de Camargo, 842<br>- Centro</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
